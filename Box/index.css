@@ -1,0 +1,22 @@
+div {
+   text-align: center;  
+}
+
+label, input {
+display: inline-block;
+margin: 5px;
+}
+form {
+    border: 1px solid #333333;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    margin-left: 360px;
+    margin-top: 200px;
+}
+.myFont {
+    font-family: "Poiret One";
+    src: url(https://fonts.googleapis.com/css2?family=Poiret+One&display=swap);
+    font-weight: 200%;
+}
+

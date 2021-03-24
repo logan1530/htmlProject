@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 65px;
+margin-bottom: 0;
+margin-top: 100px;
+
+}
+
+li {
+    display: inline;
+}
+div {
+    background: #333333;
+    padding: 1px;
+
+}
+a {
+    
+    margin: 20px;
+    background-color: #333333;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    
+}
+h2 {
+    text-align: center;
+     color: white;
+     font-size: 20px;
+}
+
+body {
+    background: #333333 url(http://clipart-library.com/image_gallery2/Space-Free-PNG-Image.png);
+}

@@ -1,0 +1,97 @@
+body html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(254, 255, 242);
+}
+
+#nav a {
+    float: right;
+    color: whitesmoke;
+    padding-right: 50px;
+    margin-top: 10px;
+
+}
+
+
+
+#nav h1 {
+    float: left;
+    font-size: 15px;
+    color: whitesmoke;
+    margin-left: 40px;
+}
+
+#nav {
+    background-color: rgb(231, 150, 0);
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+}
+
+#box {
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 50%;
+    
+    display: flex;
+    flex-direction:row;
+    
+    
+}
+
+.card {
+    margin: auto;
+    margin-top: 10px;
+    
+    padding: 20px;
+    display: inline-block;
+    
+    background: white;
+    border: 2px solid rgb(253, 199, 97);
+    width: 300px;
+    
+    
+     
+    
+    
+}
+
+#container {
+  
+    margin: auto;
+    margin-top: 80px;
+    
+    
+    
+}
+    
+   
+    
+ 
+
+.card p {
+    word-wrap: break-word;
+    clear: right;
+    margin-left: 15px
+    
+}
+
+.card a {
+    background-color: rgb(231, 150, 0);
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+

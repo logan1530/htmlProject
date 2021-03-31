@@ -1,4 +1,4 @@
-body html {
+body, html {
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,21 +8,29 @@ body {
     background-color: rgb(254, 255, 242);
 }
 
-#nav a {
-    float: right;
+#nav ul {
+    
     color: whitesmoke;
-    padding-right: 50px;
-    margin-top: 10px;
+    
+    
 
+}
+#nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    padding: 0;
 }
 
 
-
 #nav h1 {
-    float: left;
-    font-size: 15px;
+    
+    font-size: 17px;
     color: whitesmoke;
-    margin-left: 40px;
+    margin-right: 200px;
+    margin-top: 15px;
 }
 
 #nav {
@@ -32,7 +40,11 @@ body {
     position: fixed;
     width: 100%;
     z-index: 2;
-    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: space-between;
+
 }
 
 #box {

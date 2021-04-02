@@ -1,0 +1,140 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Bread {
+    
+    display: flex;
+    background: black;
+    align-items: flex-start;
+    margin-bottom: 0;
+    width: 100%;
+    height: 300px;
+  
+}
+
+.Bread img {
+    width: 400px;
+    height: 300px;
+    
+    
+}
+
+
+.bread {
+    padding-left: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 50%;
+    margin-left: -0px;
+    color: rgb(240, 240, 240);
+    margin-bottom: 0;
+}
+
+.bread h1 {
+    font-size: 40px;
+}
+
+
+.bread p {
+    color: gray;
+    font-weight: 100;
+}
+
+.Pineapple {
+    
+    display: flex;
+    
+    align-items: flex-start;
+    margin-bottom: 0;
+    width: 100%;
+    height: 300px;
+    flex-direction: row-reverse;
+    background: rgb( 18, 18, 18);
+}
+
+.Pineapple img {
+    width: 400px;
+    height: 300px;
+    clear: left;
+    
+}
+
+.pineapple {
+    padding-left: 50px;
+    width: 100%;
+    height: 300px;
+    
+    color: rgb(240, 240, 240);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 50%;
+    margin-left: -0px;
+}
+
+.pineapple h1 {
+    font-size: 40px;
+    
+
+}
+
+.pineapple p {
+    color: gray;
+    font-weight: 100;
+}
+
+
+
+.Pasta {
+    
+    display: flex;
+    background: rgb( 31, 31, 31);
+    align-items: flex-start;
+    margin-bottom: 0;
+    
+  
+}
+
+
+.Pasta img {
+    width: 400px;
+    height: 300px;
+    
+}
+
+
+.pasta {
+    padding-left: 50px;
+    width: 100%;
+    height: 300px;
+    clear: left;
+    color: rgb(240, 240, 240);
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 60%;
+    margin-left: -0px;
+}
+
+
+.pasta h1 {
+    font-size: 40px;
+    
+}
+
+.pasta p {
+    color: gray;
+    font-weight: 100;
+    
+}
+
+
+
+
